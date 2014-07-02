@@ -1,0 +1,31 @@
+{
+  "name": "activity-phrase-feed",
+  "version": "0.0.0-dev.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -r test/dom.js",
+    "testw": "mocha test -r test/dom.js -w"
+  },
+  "browser": {
+    "readable-stream": "stream-browserify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "activity-mocks": "0.0.0-dev.1",
+    "brfs": "^1.1.1",
+    "browserify": "^4.2.0",
+    "chai": "^1.9.1",
+    "jsdom": "^0.11.0",
+    "sinon": "^1.10.2",
+    "watchify": "^0.10.2"
+  },
+  "dependencies": {
+    "activity-phraser": "0.0.0-dev.1",
+    "inherits": "^2.0.1",
+    "raf": "^2.0.1",
+    "stream-feed": "0.0.0-dev.1",
+    "util-extend": "^1.0.1"
+  }
+}
